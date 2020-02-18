@@ -17,15 +17,15 @@ class App extends React.Component {
         { title: "Contact", path: "/contact" }
       ],
       home: {
-        title: "Be Relentless",
-        subTitle: "Projects the make a difference",
+        title: "Welcome",
+        subTitle: "Projects",
         text: "Checkout my projects below"
       },
       about: {
         title: "About Me"
       },
       contact: {
-        title: "Let's Talk"
+        title: "Contact Me?"
       }
     };
   }
