@@ -19,7 +19,8 @@ class App extends React.Component {
       headerLinks: [
         { title: "Home", path: "/" },
         { title: "About", path: "/about" },
-        { title: "Contact", path: "/contact" }
+        { title: "Contact", path: "/contact" },
+        { title: "Resume", path: "/resume" }
       ],
       home: {
         title: "Welcome",
@@ -31,6 +32,9 @@ class App extends React.Component {
       },
       contact: {
         title: "Contact Me?"
+      },
+      resume: {
+        title: "Resume"
       }
     };
   }
@@ -50,6 +54,9 @@ class App extends React.Component {
                 </Link>
                 <Link className="nav-link" to="/about">
                   About
+                </Link>
+                <Link className="nav-link" to="/resume">
+                  Resume
                 </Link>
                 <Link className="nav-link" to="/contact">
                   Contact
@@ -80,6 +87,11 @@ class App extends React.Component {
             path="/about"
             exact
             render={() => <AboutPage title={this.state.about.title} />}
+          />
+          <Route
+            path="/resume"
+            exact
+            render={() => <ResumePage title={this.state.resume.title} />}
           />
 
           <Footer />

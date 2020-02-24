@@ -3,6 +3,8 @@ import React from "react";
 import Card from "../components/Card";
 
 import github from "../assets/images/github.jpg";
+import northeasternLogo from "../assets/images/northeastern-logo.jpg";
+import gameImage from "../assets/images/2048_logo.png";
 // import youtube from "../assets/images/youtube.png";
 // import evverest from "../assets/images/evverest.png";
 import Container from "react-bootstrap/Container";
@@ -15,26 +17,28 @@ class Carousel extends React.Component {
       items: [
         {
           id: 0,
-          title: "",
-          subTitle: "",
-          imgSrc: "",
-          link: "",
+          title: "2048 Game",
+          subTitle: "2048 Game Created in Java",
+          imgSrc: gameImage,
+          link: "https://github.com/kchu14/2048",
           selected: false
         },
         {
           id: 1,
-          title: "",
-          subTitle: "",
-          imgSrc: "",
-          link: "",
+          title: "Northeastern Transportation Data Analysis",
+          subTitle:
+            "Compares transportation modes / does ML analysis on Uber tipping odds",
+          imgSrc: northeasternLogo,
+          link:
+            "https://github.com/kchu14/Northeastern-Transportation-Analysis",
           selected: false
         },
         {
           id: 2,
-          title: "GitHub",
-          subTitle: "My GitHub",
+          title: "This Portfolio Site",
+          subTitle: "Source Code for This Site",
           imgSrc: github,
-          link: "https://github.com/kchu14",
+          link: "https://github.com/kchu14/portfolio-site",
           selected: false
         }
       ]
