@@ -3,7 +3,6 @@ import Hero from "../components/Hero";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import resumeImage from "../assets/images/resume.png";
-import { Document, Page } from "react-pdf";
 
 function ResumePage(props) {
   return (
