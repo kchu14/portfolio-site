@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio-site/static/css/main.166b8518.chunk.css",
+    "main.js": "/portfolio-site/static/js/main.545b3ce1.chunk.js",
+    "main.js.map": "/portfolio-site/static/js/main.545b3ce1.chunk.js.map",
+    "runtime-main.js": "/portfolio-site/static/js/runtime-main.9b26440e.js",
+    "runtime-main.js.map": "/portfolio-site/static/js/runtime-main.9b26440e.js.map",
+    "static/css/2.ebed6d04.chunk.css": "/portfolio-site/static/css/2.ebed6d04.chunk.css",
+    "static/js/2.21a62ef3.chunk.js": "/portfolio-site/static/js/2.21a62ef3.chunk.js",
+    "static/js/2.21a62ef3.chunk.js.map": "/portfolio-site/static/js/2.21a62ef3.chunk.js.map",
+    "index.html": "/portfolio-site/index.html",
+    "precache-manifest.cf0bdb01de7fd4c0e675fdd2e2b367d2.js": "/portfolio-site/precache-manifest.cf0bdb01de7fd4c0e675fdd2e2b367d2.js",
+    "service-worker.js": "/portfolio-site/service-worker.js",
+    "static/css/2.ebed6d04.chunk.css.map": "/portfolio-site/static/css/2.ebed6d04.chunk.css.map",
+    "static/css/main.166b8518.chunk.css.map": "/portfolio-site/static/css/main.166b8518.chunk.css.map",
+    "static/js/2.21a62ef3.chunk.js.LICENSE.txt": "/portfolio-site/static/js/2.21a62ef3.chunk.js.LICENSE.txt",
+    "static/media/2048_logo.png": "/portfolio-site/static/media/2048_logo.98de9f13.png",
+    "static/media/font-awesome.min.css": "/portfolio-site/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/github.png": "/portfolio-site/static/media/github.fdd64793.png",
+    "static/media/northeastern-logo.png": "/portfolio-site/static/media/northeastern-logo.a22e388a.png",
+    "static/media/resume.png": "/portfolio-site/static/media/resume.2ecfbc64.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9b26440e.js",
+    "static/css/2.ebed6d04.chunk.css",
+    "static/js/2.21a62ef3.chunk.js",
+    "static/css/main.166b8518.chunk.css",
+    "static/js/main.545b3ce1.chunk.js"
+  ]
+}
