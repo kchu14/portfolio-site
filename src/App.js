@@ -24,8 +24,8 @@ class App extends React.Component {
       ],
       home: {
         title: "Welcome",
-        subTitle: "Projects",
-        text: "Checkout my projects below"
+        subTitle: "",
+        text: "Checkout some projects below"
       },
       about: {
         title: "About Me"
@@ -71,7 +71,7 @@ class App extends React.Component {
             render={() => (
               <HomePage
                 title={this.state.home.title}
-                subTitle={this.state.home.text}
+                subTitle={this.state.home.subTitle}
                 text={this.state.home.text}
               />
             )}

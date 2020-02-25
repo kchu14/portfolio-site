@@ -2,8 +2,8 @@ import React from "react";
 
 import Card from "../components/Card";
 
-import github from "../assets/images/github.jpg";
-import northeasternLogo from "../assets/images/northeastern-logo.jpg";
+import github from "../assets/images/github.png";
+import northeasternLogo from "../assets/images/northeastern-logo.png";
 import gameImage from "../assets/images/2048_logo.png";
 // import youtube from "../assets/images/youtube.png";
 // import evverest from "../assets/images/evverest.png";
