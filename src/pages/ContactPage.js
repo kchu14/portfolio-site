@@ -39,7 +39,7 @@ class ContactPage extends React.Component {
     });
 
     Axios.post(
-      "http://https://kyle-chu-contact-me-api.herokuapp.com/api/email",
+      "https://kyle-chu-contact-me-api.herokuapp.com/api/email",
       this.state
     )
       .then(res => {
