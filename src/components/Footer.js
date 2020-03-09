@@ -36,7 +36,7 @@ function Footer() {
                   Email: kchuinbox@gmail.com
                 </i>
               </a>
-              <a className="fb-ic " href="https://www.facebook.com/kylechu1998">
+              <a className="fb-ic" href="https://www.facebook.com/kylechu1998">
                 <i
                   className="fa fa-facebook-square black-text mr-lg-4"
                   style={{ color: "#000" }}
